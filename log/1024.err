@@ -1,0 +1,728 @@
+2019-12-20 15:48:14,001 $74136--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.find())
+AttributeError: 'Mongodb' object has no attribute 'find'
+2019-12-20 15:48:14,002 $74136--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 1.30ms
+2019-12-20 15:53:50,555 $74136--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.demo.find())
+AttributeError: 'Mongodb' object has no attribute 'demo'
+2019-12-20 15:53:50,557 $74136--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 2.10ms
+2019-12-20 15:53:53,197 $74136--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.demo.find())
+AttributeError: 'Mongodb' object has no attribute 'demo'
+2019-12-20 15:53:53,197 $74136--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.88ms
+2019-12-20 15:53:53,368 $74136--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.demo.find())
+AttributeError: 'Mongodb' object has no attribute 'demo'
+2019-12-20 15:53:53,368 $74136--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.91ms
+2019-12-20 15:54:14,706 $74136--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.demo.insert({"hs":'aa'}))
+AttributeError: 'Mongodb' object has no attribute 'demo'
+2019-12-20 15:54:14,708 $74136--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 2.73ms
+2019-12-20 15:54:15,206 $74136--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.demo.insert({"hs":'aa'}))
+AttributeError: 'Mongodb' object has no attribute 'demo'
+2019-12-20 15:54:15,207 $74136--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.92ms
+2019-12-20 15:54:15,366 $74136--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.demo.insert({"hs":'aa'}))
+AttributeError: 'Mongodb' object has no attribute 'demo'
+2019-12-20 15:54:15,366 $74136--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.79ms
+2019-12-20 15:54:15,518 $74136--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.demo.insert({"hs":'aa'}))
+AttributeError: 'Mongodb' object has no attribute 'demo'
+2019-12-20 15:54:15,518 $74136--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.89ms
+2019-12-20 15:54:15,649 $74136--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.demo.insert({"hs":'aa'}))
+AttributeError: 'Mongodb' object has no attribute 'demo'
+2019-12-20 15:54:15,650 $74136--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.81ms
+2019-12-20 16:05:18,613 $74325--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.find())
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:05:18,615 $74325--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 2.39ms
+2019-12-20 16:05:19,260 $74325--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.find())
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:05:19,261 $74325--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.84ms
+2019-12-20 16:05:19,433 $74325--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.find())
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:05:19,434 $74325--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.82ms
+2019-12-20 16:05:19,567 $74325--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.find())
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:05:19,568 $74325--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.84ms
+2019-12-20 16:05:19,726 $74325--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.find())
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:05:19,727 $74325--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.76ms
+2019-12-20 16:05:19,903 $74325--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.find())
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:05:19,904 $74325--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.86ms
+2019-12-20 16:05:20,088 $74325--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.find())
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:05:20,089 $74325--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.91ms
+2019-12-20 16:05:20,254 $74325--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.find())
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:05:20,254 $74325--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.78ms
+2019-12-20 16:12:00,703 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aa":'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:00,706 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 3.02ms
+2019-12-20 16:12:01,221 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aa":'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:01,222 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 1.17ms
+2019-12-20 16:12:01,373 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aa":'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:01,373 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.93ms
+2019-12-20 16:12:01,508 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aa":'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:01,508 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.90ms
+2019-12-20 16:12:01,655 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aa":'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:01,655 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.95ms
+2019-12-20 16:12:01,824 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aa":'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:01,824 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.87ms
+2019-12-20 16:12:01,972 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aa":'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:01,972 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.89ms
+2019-12-20 16:12:02,136 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aa":'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:02,137 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.93ms
+2019-12-20 16:12:43,532 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:43,535 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 3.05ms
+2019-12-20 16:12:43,737 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:43,738 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 1.11ms
+2019-12-20 16:12:43,874 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:43,875 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.93ms
+2019-12-20 16:12:44,018 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:44,018 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.90ms
+2019-12-20 16:12:44,187 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:44,188 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.90ms
+2019-12-20 16:12:44,660 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:44,660 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.92ms
+2019-12-20 16:12:44,822 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:44,822 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.94ms
+2019-12-20 16:12:44,964 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:44,965 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 1.07ms
+2019-12-20 16:12:45,077 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:45,078 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 1.07ms
+2019-12-20 16:12:45,222 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:45,223 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.88ms
+2019-12-20 16:12:45,371 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:45,372 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.96ms
+2019-12-20 16:12:45,530 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project.insert({"aaa": 'sss'}))
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:12:45,530 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 1.07ms
+2019-12-20 16:13:35,987 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:13:35,989 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 2.34ms
+2019-12-20 16:13:36,189 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:13:36,190 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.91ms
+2019-12-20 16:13:36,346 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:13:36,347 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.92ms
+2019-12-20 16:13:36,820 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:13:36,821 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.89ms
+2019-12-20 16:13:36,981 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:13:36,981 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.81ms
+2019-12-20 16:13:37,129 $74411--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.project)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:13:37,129 $74411--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.87ms
+2019-12-20 16:28:56,289 $75531--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 12, in get
+    print(self.db.find())
+  File "/Users/huangshan/Desktop/feedback/model/mongo_config.py", line 25, in find
+    return self.db.project.insert({"hs": 'aa'})
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/motor/core.py", line 705, in __call__
+    self.delegate.name)
+TypeError: MotorCollection object is not callable. If you meant to call the 'project.insert' method on a MotorCollection object it is failing because no such method exists.
+2019-12-20 16:28:56,292 $75531--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 3.67ms
+2019-12-20 16:39:52,539 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'insert_one'
+2019-12-20 16:39:52,541 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 2.37ms
+2019-12-20 16:39:54,597 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'insert_one'
+2019-12-20 16:39:54,597 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.90ms
+2019-12-20 16:39:54,792 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'insert_one'
+2019-12-20 16:39:54,793 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.92ms
+2019-12-20 16:40:16,630 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'insert_one'
+2019-12-20 16:40:16,631 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.99ms
+2019-12-20 16:40:17,034 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:17,036 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 2.23ms
+2019-12-20 16:40:17,224 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:17,224 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.92ms
+2019-12-20 16:40:17,331 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:17,332 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 1.01ms
+2019-12-20 16:40:17,488 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:17,489 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.81ms
+2019-12-20 16:40:17,648 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:17,648 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.94ms
+2019-12-20 16:40:17,797 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:17,798 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.88ms
+2019-12-20 16:40:17,956 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:17,957 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.78ms
+2019-12-20 16:40:18,268 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:18,269 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 1.00ms
+2019-12-20 16:40:18,483 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:18,484 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.96ms
+2019-12-20 16:40:18,642 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:18,642 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.84ms
+2019-12-20 16:40:18,816 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:18,816 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.88ms
+2019-12-20 16:40:18,999 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:18,999 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.83ms
+2019-12-20 16:40:31,396 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:31,398 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 2.42ms
+2019-12-20 16:40:31,804 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:31,805 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.87ms
+2019-12-20 16:40:31,964 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:31,965 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.97ms
+2019-12-20 16:40:32,099 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:32,100 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.94ms
+2019-12-20 16:40:55,333 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:55,335 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 2.17ms
+2019-12-20 16:40:55,490 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:55,490 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.79ms
+2019-12-20 16:40:56,014 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:56,015 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.95ms
+2019-12-20 16:40:56,200 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:56,200 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.90ms
+2019-12-20 16:40:56,354 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:40:56,355 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.81ms
+2019-12-20 16:44:53,662 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:44:53,664 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 2.52ms
+2019-12-20 16:44:53,938 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:44:53,939 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.83ms
+2019-12-20 16:44:54,068 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:44:54,068 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.88ms
+2019-12-20 16:44:54,205 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:44:54,206 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.83ms
+2019-12-20 16:44:54,337 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:44:54,338 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 1.09ms
+2019-12-20 16:44:54,494 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:44:54,495 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.80ms
+2019-12-20 16:44:54,643 $75753--MainThread tornado.application ERROR web.py: #1788 Uncaught exception GET /feed (::1)
+HTTPServerRequest(protocol='http', host='localhost:9802', method='GET', uri='/feed', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/Users/huangshan/.virtualenvs/feedback/lib/python3.7/site-packages/tornado/web.py", line 1699, in _execute
+    result = await result
+  File "/Users/huangshan/Desktop/feedback/handlers/feed.py", line 13, in get
+    result = await self.db.project.insert_one(document)
+AttributeError: 'Mongodb' object has no attribute 'project'
+2019-12-20 16:44:54,643 $75753--MainThread tornado.access ERROR web.py: #2246 500 GET /feed (::1) 0.82ms
