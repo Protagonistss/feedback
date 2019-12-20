@@ -10,7 +10,7 @@ import tornado.web
 from tornado.options import options
 from settings import settings
 from urls import url_patterns
-from model import mongo_config
+from model import mongo
 from common import web_log
 
 

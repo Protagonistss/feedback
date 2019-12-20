@@ -9,7 +9,8 @@ from handlers.base import BaseHandler
 
 class FeedHandler(BaseHandler):
     async def get(self):
-        print(self.db.age.insert({"key": 'val'}))
+        result = await self.db.age.find_one({'key': 'val'})
+        print(result)
         await self.finish({"msg": 'ok'})
 
 

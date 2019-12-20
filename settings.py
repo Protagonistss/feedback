@@ -5,9 +5,9 @@
 # software: PyCharm
 
 from tornado.options import options, define
-import logging
-import tornado
 from pymongo import MongoClient
+from common.config import MONGO_SETTINGS
+import motor
 
 define("port", default=9802, help="run on the given port", type=int)
 define("config", default=None, help="tornado config file")
@@ -19,7 +19,8 @@ settings["static_path"] = ''
 settings['debug'] = True
 settings['cookie_secret'] = "protagonisths@gmail.com-huangshan"
 settings['xsrf_cookies'] = True
-settings['db'] = MongoClient('localhost', 27017)
+# settings['db'] = MongoClient(MONGO_SETTINGS['mongo']['host'], MONGO_SETTINGS['mongo']['port'])
+settings['db'] = motor.MotorClient(MONGO_SETTINGS['mongo']['host'], MONGO_SETTINGS['mongo']['port'])
 # if settings['debug']:
 #     LOG_LEVEL = logging.DEBUG
 # else:

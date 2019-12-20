@@ -5,13 +5,14 @@
 # software: PyCharm
 
 import tornado.web
+from common.config import MONGO_SETTINGS
 
 
 class BaseHandler(tornado.web.RequestHandler):
 
     @property
     def db(self):
-        return self.application.settings['db']['huangshan']
+        return self.application.settings['db'][MONGO_SETTINGS['mongo']['db']]
 
     @property
     def log(self):
