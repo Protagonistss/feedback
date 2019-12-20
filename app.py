@@ -18,7 +18,7 @@ class AppApplicationHandler(tornado.web.Application):
 
     def __init__(self):
         tornado.web.Application.__init__(self, url_patterns, **settings)
-        self.db = mongo_config.Mongodb()
+        self.db = mongo_config.MongoDB()
 
 
 def main():

@@ -8,7 +8,7 @@ import motor.motor_tornado
 from common.config import MONGO_SETTINGS
 
 
-class Mongodb:
+class MongoDB:
     def __init__(self):
         connection = motor.motor_tornado.MotorClient("localhost", 27017)
-        self.db = connection.project
+        self.db = connection['project']
