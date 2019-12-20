@@ -17,8 +17,8 @@ from common import web_log
 class AppApplicationHandler(tornado.web.Application):
 
     def __init__(self):
+        # self.db = mongo_config.MongoDB()
         tornado.web.Application.__init__(self, url_patterns, **settings)
-        self.db = mongo_config.MongoDB()
 
 
 def main():

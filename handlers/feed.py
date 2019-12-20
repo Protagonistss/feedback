@@ -9,8 +9,7 @@ from handlers.base import BaseHandler
 
 class FeedHandler(BaseHandler):
     async def get(self):
-        document = {'key': 'val'}
-        result = await self.db.project.insert_one(document)
+        print(self.db.age.insert({"key": 'val'}))
         await self.finish({"msg": 'ok'})
 
 

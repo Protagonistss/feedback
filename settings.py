@@ -7,6 +7,7 @@
 from tornado.options import options, define
 import logging
 import tornado
+from pymongo import MongoClient
 
 define("port", default=9802, help="run on the given port", type=int)
 define("config", default=None, help="tornado config file")
@@ -18,7 +19,7 @@ settings["static_path"] = ''
 settings['debug'] = True
 settings['cookie_secret'] = "protagonisths@gmail.com-huangshan"
 settings['xsrf_cookies'] = True
-
+settings['db'] = MongoClient('localhost', 27017)
 # if settings['debug']:
 #     LOG_LEVEL = logging.DEBUG
 # else:

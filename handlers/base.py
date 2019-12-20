@@ -8,12 +8,10 @@ import tornado.web
 
 
 class BaseHandler(tornado.web.RequestHandler):
-    def __init__(self, application, request, **kwargs):
-        super(BaseHandler, self).__init__(application, request, **kwargs)
 
     @property
     def db(self):
-        return self.application.db
+        return self.application.settings['db']['huangshan']
 
     @property
     def log(self):
