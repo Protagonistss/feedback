@@ -12,12 +12,14 @@ from urls import url_patterns
 from settings import settings
 from tornado_swirl.swagger import Application
 from tornado_swirl import api_routes
-
+from common import web_log
 
 class MyApplication(object):
 
     def __init__(self):
         self.initiate_app()
+        web_log.init()
+
 
     def initiate_app(self):
         app = self.make_up()

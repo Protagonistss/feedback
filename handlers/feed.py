@@ -21,6 +21,7 @@ class FeedHandler(BaseHandler):
                 msg(SuccessResponse) -- message
             :return:
         """
+        await self.db.project.insert_one({'name': 'huangshan', 'age': 20})
         await self.finish({'status': '200', "msg": 'ok'})
 
 
