@@ -7,6 +7,6 @@
 from handlers import FeedHandler, IndexHandler
 
 url_patterns = [
-    (r"/feed", FeedHandler),
+    (r"/feed$", FeedHandler),
     (r'/', IndexHandler)
 ]

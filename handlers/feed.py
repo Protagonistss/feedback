@@ -5,10 +5,21 @@
 # software: PyCharm
 
 from handlers.base import BaseHandler
+import tornado_swirl as swirl
+
+swirl.describe(title='APIS', description='FeedBack APIS')
 
 
+@swirl.restapi('/feed')
 class FeedHandler(BaseHandler):
     async def get(self):
+        """
+            Returns user Profile
+
+            200 Response:
+                status (SuccessResponse) -- success
+            :return:
+        """
         result = await self.db.age.find_one({'key': 'val'})
         print(result)
         await self.finish({"msg": 'ok'})
