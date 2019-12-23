@@ -10,6 +10,8 @@ from tornado_swirl.swagger import schema
 class SuccessResponse:
     """
     Properties:
-        status(str) -- Rquired
+        status(str) -- Required
+        msg(str) -- Required
     """
     Status = 'status'
+    Msg = 'msg'

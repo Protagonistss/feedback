@@ -17,12 +17,11 @@ class FeedHandler(BaseHandler):
             Returns user Profile
 
             200 Response:
-                status (SuccessResponse) -- success
+                status(SuccessResponse) -- success
+                msg(SuccessResponse) -- message
             :return:
         """
-        result = await self.db.age.find_one({'key': 'val'})
-        print(result)
-        await self.finish({"msg": 'ok'})
+        await self.finish({'status': '200', "msg": 'ok'})
 
 
 class IndexHandler(BaseHandler):

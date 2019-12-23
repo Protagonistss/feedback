@@ -8,6 +8,7 @@ import tornado.httpserver
 import tornado.ioloop
 import tornado.web
 from tornado.options import options
+from urls import url_patterns
 from settings import settings
 from tornado_swirl.swagger import Application
 from tornado_swirl import api_routes
@@ -25,7 +26,8 @@ class MyApplication(object):
     def make_up(self):
         return Application(
             api_routes(),
-            **settings
+            url_patterns,
+            **settings,
         )
 
 
